@@ -2,12 +2,11 @@
 
 client_id = "6ca93695dcda9975fb1fd1e7be4134b8"
 name = "Ai Agent 2"
-application_url = "https://ai-agent-storefront.onrender.com"
+application_url = "https://ai-agent-storefront-omreusa.fly.dev"
 embedded = true
-handle = "shop-chat-agent"
+
 
 [build]
-include_config_on_deploy = true
 automatically_update_urls_on_dev = true
 
 [webhooks]
@@ -21,9 +20,9 @@ use_legacy_install_flow = false
 
 [auth]
 redirect_urls = [ ]
-                       
+
 [pos]
 embedded = false
 
 [customer_authentication]
-redirect_uris = [ "https://ai-agent-storefront.onrender.com/callback" ]
+redirect_uris = [ "https://ai-agent-storefront-omreusa.fly.dev/callback" ]
